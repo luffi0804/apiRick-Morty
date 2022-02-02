@@ -24,10 +24,11 @@ const fillData = (data) => {
     html += '<div class="card h-100">';
     html += `<img src="${ch.image}" class="card-img-top" alt="...">`;
     html += '<div class="card-body">';
-    html += `<h5 class="card-title font" >Nombre: ${ch.name}</h5>`;
-    html += `<h5 class="card-title font ">Genero: ${ch.gender}</h5>`;
-    html += `<h5 class="card-title font">Especie: ${ch.species}</h5>`;
-    html += `<h5 class="card-title font">Estado: ${ch.status}</h5>`;
+    html += `<h5 class="card-title font" >Name: ${ch.name}</h5>`;
+    html +=  '<br>'
+    html += `<p class="card-text font ">Gender: ${ch.gender}</p>`;
+    html += `<p class="card-text font">Species: ${ch.species}</p>`;
+    html += `<p class="card-text font">Status: ${ch.status}</p>`;
     html += "</div>";
     html += "</div>";
     html += "</div>";
